@@ -1,6 +1,47 @@
 body{
-    background: plum;
+    background: #111111;
+    color: #dddddd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    max-width: 1366px; /* some arbitrary width */
+    margin: 0 auto;
 }
-div{
-    background-color: chocolate;
+
+#title{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em;
+}
+
+
+
+#navbar{
+    background: #222222;
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr ;
+}
+
+#headings{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align : center;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: left;
+    background: #333333;
+}
+
+#main, #sidebar{
+    margin: 30px;
+    background: #cccccc;
+    color: #222222;
+}
+
+#footer{
+    margin : 0.5em;
 }
