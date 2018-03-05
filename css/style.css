@@ -37,11 +37,27 @@ body{
 }
 
 #main, #sidebar{
-    margin: 30px;
+    margin: 1em;
     background: #cccccc;
     color: #222222;
+    padding: 1em;
 }
 
+.image img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.datetext{
+    color: #777777;
+    text-decoration: underline;
+}
+.quote{
+    border-left: darkturquoise;
+    border-left-style: solid;
+    border-left-width: 1em;
+    padding-left: 1em;
+}
 #footer{
     margin : 0.5em;
 }
